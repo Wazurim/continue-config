@@ -1,0 +1,11 @@
+﻿tsconfig.json
+.migrations
+dev_data
+types
+sessions
+index/lancedb
+index
+.continueignore
+.continuerc.json
+config.ts
+package.json
