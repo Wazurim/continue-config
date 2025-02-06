@@ -35,9 +35,12 @@
   "tabAutocompleteModel": {
     "title": "Tab Autocomplete Model",
     "provider": "ollama",
-    //"model": "starcoder2:latest",
-    "model": "qwen2.5-coder:7b-base",
-    "apiBase": "https://ollama.nyxsky.ca"
+    "model": "starcoder2:latest",
+    //"apiBase": "http://localhost:11434",
+    //"model": "qwen2.5-coder:7b-base",
+    //"model": "qwen2.5-coder:1.5B",
+    "apiBase": "https://ollama.nyxsky.ca",
+    "multilineCompletions": "always"
 },
   "contextProviders": [
     {
